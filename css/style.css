@@ -37,6 +37,7 @@ h2 {
   color: blanchedalmond;
 }
 
+ /* the code for these buttons is taken from https://getcssscan.com/css-buttons-examples and slightly changed*/
 .base-button {
   border-radius: 8px;
   border-style: none;
