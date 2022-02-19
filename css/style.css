@@ -1,0 +1,72 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  grid-area: hd;
+  background-color: dodgerblue;
+  border-radius: 10px;
+}
+.sidebar {
+  grid-area: sbar;
+  border-radius: 10px;
+}
+
+.footer {
+  grid-area: ft;
+  text-align: center;
+}
+
+.blog-title {
+  color: gainsboro;
+  font-size: xx-large;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+h1 {
+  color: darkgrey;
+  font-size: x-large;
+}
+
+h2 {
+  font-size: large;
+}
+
+.light-text-color {
+  color: blanchedalmond;
+}
+
+.base-button {
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-primary {
+  background-color: #3f4fdf;
+  color: #ffffff;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #626fdf;
+}
