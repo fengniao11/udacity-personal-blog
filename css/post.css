@@ -32,9 +32,10 @@
   margin-bottom: 25px;
 }
 
-img {
+.post-img {
   object-fit: contain;
   max-height: 150px;
+  width:100%;
 }
 
 .author-info {
@@ -80,6 +81,7 @@ figcaption {
   img {
     object-fit: contain;
     max-height: 500px;
+    width:100%;
   }
 }
 
@@ -98,5 +100,6 @@ figcaption {
   img {
     object-fit: contain;
     max-height: 500px;
+    width:100%;
   }
 }
