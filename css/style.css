@@ -1,3 +1,7 @@
+@import "index.css";
+@import "post.css";
+@import "buttons.css";
+
 .container {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,39 +39,4 @@ h2 {
 
 .light-text-color {
   color: blanchedalmond;
-}
-
- /* the code for these buttons is taken from https://getcssscan.com/css-buttons-examples and slightly changed*/
-.base-button {
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-primary {
-  background-color: #3f4fdf;
-  color: #ffffff;
-}
-
-.button-primary:hover,
-.button-primary:focus {
-  background-color: #626fdf;
 }
